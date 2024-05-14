@@ -3,7 +3,7 @@ type: append
 migrations:
   - name: create_table
     sql: |
-      CREATE TABLE IF NOT EXISTS "ewgenius".spiceapp.runtime_metrics_1 (
+      CREATE TABLE IF NOT EXISTS runtime_metrics (
         timestamp BIGINT,
         metrics TEXT,
         value FLOAT,
