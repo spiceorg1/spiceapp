@@ -6,6 +6,6 @@ migrations:
       CREATE TABLE IF NOT EXISTS "ewgenius".spiceapp.runtime_metrics (
         timestamp TIMESTAMP,
         metrics TEXT,
-        value FLOAT
+        value FLOAT,
         labels TEXT
       )
