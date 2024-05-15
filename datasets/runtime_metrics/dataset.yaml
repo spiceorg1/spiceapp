@@ -1,9 +1,9 @@
-name: ewgenius.spiceapp.runtime_metrics_test
+name: spiceorg1.spiceapp.runtime_metrics
 type: append
 migrations:
   - name: create_table
     sql: |
-      CREATE TABLE IF NOT EXISTS "ewgenius".spiceapp.runtime_metrics_test (
+      CREATE TABLE IF NOT EXISTS "spiceorg1".spiceapp.runtime_metrics (
         timestamp BIGINT,
         metrics TEXT,
         value FLOAT,
