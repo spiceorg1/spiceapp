@@ -3,7 +3,7 @@ type: append
 migrations:
   - name: create_table
     sql: |
-      CREATE TABLE IF NOT EXISTS "spiceorg1".spiceapp.runtime_metrics (
+      CREATE TABLE IF NOT EXISTS spiceorg1.spiceapp.runtime_metrics (
         timestamp BIGINT,
         metrics TEXT,
         value FLOAT,
